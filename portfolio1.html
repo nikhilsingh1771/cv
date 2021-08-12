@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="stylesheets/w3.css" type="text/css">
+    <style>
+        .glow {
+            font-size: 50px;
+            color: black;
+            text-align: center;
+            
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px rgb(27, 24, 24), 0 0 20px rgb(51, 45, 45), 0 0 30px #4d4444,
+                    0 0 40px #4c5052, 0 0 50px #555561,
+                    0 0 60px #c6c4cf, 0 0 70px #f2f5f0;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #19191a, 0 0 40px #302e2f,
+                    0 0 50px #555253, 0 0 60px #b3a4ab, 0 0 70px #3f0e99, 0 0 80px #eee2e8;
+            }
+        }
+
+
+        .box {
+            width: 75%;
+            height: relative;
+            position: absolute;
+            top: 10;
+            left: 0;
+            z-index: 5;
+           
+        }
+
+        .stack-top {
+            z-index: 1;
+            margin: 20px;
+            
+           
+        }
+    #bg-img {
+        border: 1px solid black;
+        background: url(img/car.jpg);
+        background-repeat: no-repeat;
+        padding: 15px;
+        opacity: 1.8px;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+        
+        </style>
+</head>
+
+<body id="bg-img">
+    <div class="w3-container" >
+        <hr />
+        <h1 class="w3-center glow">
+            I,m Nikhil Singh
+        </h1>
+        <hr>
+        <h1 class="w3-center glow">My Portfolio</h1>
+        <hr>
+        <div class="w3-container">
+            <div class="box">
+
+                <div class="w3-col s1">
+                    <img src="img/logo.jpg" class="w3-circle w3-margin-right" style="width: 50px; height: 50px;" />
+                </div>
+            </div>
+            <div class="box stack-top">
+                <div class="w3-container w3-card-4 w3-left">
+
+                    <p>
+                        BONAFIDE STUDENT CERTIFICATE
+                        (For Children Education Allowance)
+                        THIS IS TO CERTIFY THAT BABY MANVI MISHRA DAUGHTER OF SRI VIJAY KUMAR MISHRA RESIDENT OF VILL –
+                        PUREBACKTAWER PANDEY, POST- SOROWN, DIST- SULTANPUR, UTTAR PRADESH - 227806 IS A BONAFIDE
+                        STUDENT OF
+                        DELHI INTERNATIONAL SCHOOL (03/2016) AND IS STUDIED IN CLASS NURSERY DURING THE ACADEMIC YEAR
+                        2017-2018.
+                        DATE OF BIRTH, AS PER SCHOOL RECORD : 03.09.2013
+                        IN WORDS – THIRD SEPTEMBER TWO THOUSAND THIRTEEN.
+
+                        ADMISSION NO. DIS/AM/UP-409
+                        Principal Signature
+
+                        Date: ……………………..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
